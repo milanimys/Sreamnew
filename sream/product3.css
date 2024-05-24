@@ -1,0 +1,98 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.product-card {
+    border: 1px solid #dd2fcf;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    position: relative;
+}
+
+.game-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.game-title {
+    margin-top: 0;
+    color: rgb(255, 45, 195); 
+}
+
+.buy-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff00b7; 
+    color: rgb(255, 134, 231);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #b8033d; 
+}
+
+.price,
+.game-description,
+.game-min-specs,
+.game-rec-specs {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(198, 36, 174); 
+}
+
+.game-description ul,
+.game-min-specs ul,
+.game-rec-specs ul {
+    padding-left: 20px;
+}
+
+.game-description li,
+.game-min-specs li,
+.game-rec-specs li {
+    color: rgb(195, 0, 107);
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: rgb(255, 0, 208);
+}
+
+.back-button:hover {
+    color: rgb(141, 0, 124);
+}
+
+.product-name {
+    text-align: center;
+}
+
+.product-name a {
+    color: rgb(255, 0, 238);
+    text-decoration: none;
+}
+
+.product-name a:hover {
+    color: rgb(208, 0, 191);
+}
+body {
+    background-image: url('jpg/1701957738-south-beach-miami.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

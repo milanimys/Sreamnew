@@ -1,0 +1,67 @@
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    float: left;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+.product-name {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.product-name a {
+    color: blue; 
+    text-decoration: underline;
+}
+
+.product-name a:hover {
+    color: red; 
+}
+.product-name a {
+    color: blue; 
+    text-decoration: underline;
+}
+
+.product-name a:hover {
+    color: red; 
+    text-decoration: none; 
+}
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/jpg/12334243242342342342342423.jpg');
+    background-size: cover;
+    z-index: -1;
+}
+.product-name a {
+    color: blue;
+    text-decoration: none;
+}
+.product-name.helldrivers a {
+    color: yellow;
+}
+
+.product-name.helldrivers a:hover {
+    color: blue;
+}
+.product-name.halflife a {
+    color: orange;
+}
+
+.product-name.halflife a:hover {
+    color: grey;
+}
+.product-name.gta a {
+    color: pink;
+}
+.product-name.gta a:hover {
+    color: purple;
+}

@@ -1,0 +1,113 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    position: relative;
+}
+
+.game-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.game-title {
+    margin-top: 0;
+    color: orange;
+}
+
+.buy-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #FF8C00;
+}
+
+.price,
+.game-description,
+.game-min-specs,
+.game-rec-specs {
+    text-align: center;
+    font-size: 18px;
+    color: orange; 
+}
+
+.game-description ul,
+.game-min-specs ul,
+.game-rec-specs ul {
+    padding-left: 20px;
+}
+
+.game-description li,
+.game-min-specs li,
+.game-rec-specs li {
+    color: orange;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: orange;
+}
+.back-button:hover {
+    color: red;
+}
+
+.product-name {
+    text-align: center;
+}
+
+.product-name a {
+    color: blue;
+    text-decoration: none;
+}
+
+.product-name a:hover {
+    color: red;
+}
+
+
+body {
+    background-image: url('/jpg/maxresdefault.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.game-min-specs,
+.game-rec-specs {
+    color: orange;
+}
+
+.game-min-specs ul,
+.game-rec-specs ul {
+    padding-left: 20px;
+}
+
+.game-min-specs li,
+.game-rec-specs li {
+    color: orange;
+}
